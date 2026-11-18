@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+*/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# Android Gradle cache and build outputs
+android/.gradle/
+android/build/
+android/app/build/
+.gradle/
+
+# OS and Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
